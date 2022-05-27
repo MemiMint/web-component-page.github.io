@@ -13,26 +13,21 @@
     <script src="../components/navbar.js"></script>
     <script src="../components/sidebar.js"></script>
     <script src="../components/link.js"></script>
-    <script src="../components/custom-button.js"></script>
-    <script src="../components/custom-card.js"></script>
     <script src="../components/v-card.js"></script>
-    <script>
-        function onClick() {
-            alert("clicked!");
-        }
-    </script>
-    <title>Web components</title>
+    <script src="../components/v-form.js"></script>
+    <title>Document</title>
 </head>
 <body>
     <nav-bar></nav-bar>
     <aside class="wrapper">
         <side-bar></side-bar>
         <div class="main">
-            <custom-card 
-                image="https://picsum.photos/id/237/200/300"
-                name="John Doe"
-                username="john doe999"
-            ></custom-card>
+            <v-card 
+                image="https://decimodan.com/skills/vuejs.png" 
+                title="Vue Web component" 
+                body="This a vue web component"
+            ></v-card>
+            <v-form></v-form>
         </div>
     </aside>
 </body>

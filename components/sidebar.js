@@ -11,11 +11,6 @@ class SideBar extends HTMLElement {
                 to: "/index.html"
             },
             {
-                icon: "fa-brands fa-react",
-                text: "ReactJS",
-                to: "/react.html"
-            },
-            {
                 icon: "fa-brands fa-vue",
                 text: "VueJS",
                 to: "/vue.html"
